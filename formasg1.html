@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form (Assignment 4)</title>
+</head>
+<body style="background-color: #f3f3f3;">
+    <div align="left" style="color:rgb(160, 14, 14);
+            border: #ddd;
+            text-align:right;">
+            <a href="table2.html" target="_blank"><h2 style="text-align: center;">Home</h2></a>
+    <h3><u>Student Registration form</u></h3>
+    </div>
+    <div>
+            <form action="/action">
+            <label for="fnam">First Name: </label><input id="nam" type="text" placeholder="Enter your first name" 
+            style="width: 70%;; margin-top:20px;
+            height: 40px;
+            color: #707070;
+            margin-top: 8px;
+            border: 1px solid #ddd;
+            border-radius: 6px;">
+            <br>
+            <label for="lnam">Last Name: </label><input id="fnam" type="text" placeholder="Enter your last name"
+            style="width: 70%;; margin-top:20px;
+            height: 40px;
+            color: #707070;
+            margin-top: 8px;
+            border: 1px solid #ddd;
+            border-radius: 6px;">
+            <br>
+            <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="It should contain @"
+            style="width: 70%;; margin-top:20px;
+            height: 40px;
+            color: #707070;
+            margin-top: 8px;
+            border: 1px solid #ddd;
+            border-radius: 6px;">
+            <br>
+            <label for="no."></label>Mobile: <input type="tel" id="no." placeholder="only 10 digits are allowed" maxlength="10"
+            style="width: 70%;; margin-top:20px;
+            height: 40px;
+            color: #707070;
+            margin-top: 8px;
+            border: 1px solid #ddd;
+            border-radius: 6px;">
+            <br>
+            <label for="gen">Gender: </label>
+                <input type="radio" id="M" name="gender" value="male"><label for="M">Male</label> 
+                <input type="radio" id="F" name="gender" value="famle"><label for="F">Female</label>
+            <br>
+            <label for="dob"></label>Date Of Birth: <input type="date" id="dob"  min="2012-12-12" max="2024-08-13"
+            style="width: 70%;; margin-top:20px;
+            height: 40px;
+            color: #707070;
+            border: 1px solid #ddd;
+            border-radius: 6px;">
+            <br>
+            <label for="address">Address: <textarea name="Address" id="address" maxlength="500"
+                style="width: 70%;; margin-top:20px;
+                height: 40px;
+
+                color: #707070;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 0 15px;"></textarea></label>
+            <br>
+            <label for="city">City: </label>
+                <select name="city" id="city"
+                style="width: 70%;; margin-top:20px;
+                height: 40px;
+                color: #707070;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 0 15px;">
+                    <option value="Select">Select your city</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Contai">Contai</option>
+                    <option value="Bhubeneswar">Bhubeneswar</option>
+                    <option value="Visakapatnam">Visakapatnam</option>
+                    <option value="Hydrabad">Hydrabad</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Amedabad">Amedabad</option>
+                </select>
+            <br>
+            <label for="pin">Area PIN: </label><input type="text" maxlength="6"             style="width: 70%;; margin-top:20px;
+            height: 40px;
+            font-size: 1rem;
+            color: #707070;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 0 15px;">
+            <br>
+                <label for="specialization">Specialization: </label>
+                <br>
+                <input type="checkbox" id="ComputerScience" name="specialization" value="Computer Science">
+                <label for="ComputerScience">Computer Science</label>
+                <br>
+                <input type="checkbox" id="InformationTechnology" name="specialization" value="Information Technology">
+                <label for="InformationTechnology">Information Technology</label>
+                <br>
+                <input type="checkbox" id="ComputerArchitecture" name="specialization" value="Computer Architecture">
+                <label for="ComputerArchitecture">Computer Architecture</label>
+                <br>
+                <input type="checkbox" id="TeleCommunication" name="specialization" value="Tele Communication">
+                <label for="TeleCommunication">Tele Communication</label> <br>
+            <label for="password">Password: </label> <input type="password" id="password" maxlength="8" 
+            style="width: 70%;; margin-top:20px;
+            height: 40px;
+            color: #707070;
+            border: 1px solid #ddd;
+            border-radius: 6px;"><br>
+            <button
+            style="height: 50px;
+            width: 15%;
+            background-color:rgb(11, 133, 0);
+            color: #fff;
+            margin-top: 30px;">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
