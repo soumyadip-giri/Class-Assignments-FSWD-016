@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+   <link rel="stylesheet" href="Facebooklgn.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!------------Creating the top bar Containing logo and login credentials as a nav bar-------------->
+    <div class="container-top">
+        <h1 id="fbname">facebook</h1>
+        <div class="left-div">
+            <div class="email">
+            <p style="color: white;">Email or Phone</p>
+            <input id="inp" type="text">
+        </div>
+        <div class="pass">
+            <p style="color: white;">Password</p>
+            <input id="inp" type="text">
+            <button id="lgbtn">Log in</button>
+            <br>
+            <p style="color: rgba(255, 255, 255, 0.603);" id="fgtn">Forgotten account?</p>
+        </div>
+        </div>
+        <!---------------Left part of the main body consisting tag line and image-------------------------->
+    </div>
+    <div class="inbody">
+        <div class="left-bdy">
+            <p id="fb-ctn" style="color: #0e385f;">Facebook helps you connect and share with the people in your life</p>
+            <div class="bg-img">
+            <img src="assets/images/maxresdefault-removebg-preview.png" alt="img">
+            </div>
+        </div>
+        <div class="right-bdy">
+            <h1 id="crt-acctn">Create an account</h1>
+            <p id="des">It's quick and easy.</p>
+            <form action="/action" class="frm">
+            <div class="name">
+                <input type="text" class="nam" id="fname" placeholder="First name">
+                <input type="text" class="nam"  id="srname" placeholder="Surname">
+            </div>
+            <div class="mobile-pass">
+                <input type="text" class="mbno-pass" id="mbno" placeholder="Mobile number or email address">
+                <input type="text" class="mbno-pass" id="pass" placeholder="New Password">
+            </div>
+            <div class="dob">
+                <p id="txt">Birthday</p>
+                <div class="birthday">
+                    <select class="brtd" name="day" id="day">
+                      <!-- Options for day (1-31) -->
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3" selected>3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <!--Can Add More-->
+                    </select>
+                  
+                    <select name="month" class="brtd" id="month">
+                      <!-- Options for month (Jan-Dec) -->
+                      <option value="jan">Jan</option>
+                      <option value="feb">Feb</option>
+                      <option value="mar">Mar</option>
+                      <option value="apr">Apr</option>
+                      <option value="may">May</option>
+                      <option value="jun" selected>Jun</option>
+                      <option value="jul">Jul</option>
+                      <option value="aug">Aug</option>
+                      <option value="Sep">Sep</option>
+                      <option value="Oct">Oct</option>
+                      <option value="Nov">Nov</option>
+                      <option value="Dec">Dec</option>
+                    </select>
+                  
+                    <select name="year" class="brtd" id="year">
+                      <!-- Options for year-->
+                      <option value="1990">1990</option>
+                      <option value="1991">1991</option>
+                      <option value="1992">1992</option>
+                      <option value="1993">1993</option>
+                      <option value="1994">1994</option>
+                      <option value="1995" selected>1995</option>
+                      <!--Can Add More-->
+                    </select>
+                    <i class="fas fa-question-circle"></i> 
+                 </div>
+            </div>
+            <div class="gender">
+            <p id="txt">Gender</p>
+                <div class="gen">
+                    <input type="radio" class="gend" name="g" value="fe"><label for="female">Female</label>
+                    <input type="radio" class="gend" name="g" value="ma"><label for="male">Male</label>
+                    <input type="radio" class="gend" name="g" value="c"><label for="Custom">Custom</label>
+                    <i id="icon" class="fas fa-question-circle"></i> 
+                </div>
+            </div>
+            <div class="ft-cn">
+            <p id="foot-cntn">By clicking Sign Up,you agree to our <span style="color: #07348da4;">Terms, Data Policy </span> and<span style="color: #07348da4;"> cookie Policy.</span> You may receive SMS notifications from us and can opt out at any time.</p>
+            </div> 
+            <button id="sign">Sign Up</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

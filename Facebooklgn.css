@@ -1,0 +1,201 @@
+*{
+
+    margin: 0;
+    padding:0;
+    font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+}
+
+#fbname{
+    
+    font-size: 46px;
+    color: white;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.container-top{
+    background-color: #3c5a98 ;
+    height: 90px;
+    display: flex;
+}
+
+.left-div{
+    margin-left: 35%;
+    display: flex;
+    margin-top: 8px;
+}
+
+.email{
+    margin-top: 10px;
+}
+.pass{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.left-div p{
+    font-size: 0.8rem;
+}
+
+#inp{
+    height: 18px;
+    margin-top: 5px;
+}
+
+#lgbtn{
+    background-color: #6186d5;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border: 0.5px;
+    margin-left: 20px;
+}
+
+#fgtn{
+    margin-top: 10px;
+}
+
+/*------------------*/
+.inbody{
+    background-color: #f1f3f8;
+    display: flex;
+    height: 100vh;
+}
+
+.left-bdy{
+    width: 50%;
+    height: 500px;
+}
+
+#fb-ctn{
+    padding-top:50px;
+    padding-left: 200px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.bg-img{
+    padding-left: 200px;
+    width: 100%;
+    height: auto;
+}
+/*---------Right Body---------*/
+
+.right-bdy{
+    width: 50%;
+}
+
+#crt-acctn{
+    padding-left: 120px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#des{
+    padding-left: 120px;
+    padding-top: 11px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.frm{
+    padding-left: 120px;
+}
+
+.name{
+    margin-top: 20px;
+}
+
+.nam{
+    width: 200px;
+    height: 35px;
+    border:2px solid #6f86b669;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+#srname{
+    margin-left: 10px;
+}
+
+.mobile-pass{
+    margin-top: 15px;
+}
+
+.mbno-pass{
+    width: 428px;
+    height: 35px;
+    border:2px solid #6f86b669;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+#pass{
+    margin-top: 15px;
+}
+
+.dob{
+    margin-top: 30px;
+}
+
+#txt{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #040f247a;
+}
+
+.birthday{
+    margin-top: 10px;
+}
+
+.brtd{
+    width: 80px;
+    height: 25px;
+    font-size: 1rem;
+}
+
+.gender{
+    margin-top: 15px;
+}
+
+.gen{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.gend{
+    margin-left: 20px;
+}
+
+#icon{
+    margin-left: 20px;
+}
+
+#foot-cntn{
+    margin-top: 25px;
+    font-size: 13px;
+    color: #00000073;
+    font-weight: 500;
+    
+}
+
+.ft-cn{
+    width: 370px;
+}
+
+#sign{
+    margin-top: 20px;
+    height: 45px;
+    width: 220px;
+    background-color: #67af53;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px #25800c;
+    font-size: 1.25rem;
+    font-weight: bold;
+    box-shadow: 0px 2px  #2e9412;
+    text-shadow: 0px 2px #1f8503;
+}
