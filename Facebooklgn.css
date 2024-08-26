@@ -5,6 +5,7 @@
     font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
 }
 
+/*-----------Navbar-------------*/
 #fbname{
     
     font-size: 46px;
@@ -55,7 +56,7 @@
     margin-top: 10px;
 }
 
-/*------------------*/
+/*--------Inside the main body----------*/
 .inbody{
     background-color: #f1f3f8;
     display: flex;
@@ -137,7 +138,7 @@
 }
 
 .dob{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #txt{
@@ -175,7 +176,7 @@
 }
 
 #foot-cntn{
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 13px;
     color: #00000073;
     font-weight: 500;
@@ -187,9 +188,9 @@
 }
 
 #sign{
-    margin-top: 20px;
+    margin-top: 25px;
     height: 45px;
-    width: 220px;
+    width: 225px;
     background-color: #67af53;
     color: #fff;
     border-radius: 5px;
@@ -197,5 +198,5 @@
     font-size: 1.25rem;
     font-weight: bold;
     box-shadow: 0px 2px  #2e9412;
-    text-shadow: 0px 2px #1f8503;
+    text-shadow: 0px 2px #0f470096;
 }
