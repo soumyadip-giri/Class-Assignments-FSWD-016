@@ -7,6 +7,7 @@
 .main-container{
     width: 480px;
     margin: auto;
+    margin-top: 50px;
     border: 1px solid;
     height: 730px;
 }
@@ -39,7 +40,7 @@
 
 .details{
     margin-left: 30px;
-    width: 60vh;
+    width: 420px;
     height: 60px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.459);
     border-top: none;
@@ -62,7 +63,7 @@
 #login-btn{
     margin-top: 30px;
     margin-left: 30px;
-    width: 60vh;
+    width: 420px;
     height: 60px;
     background-color: #00008b;
     color: white;
@@ -98,7 +99,7 @@ h5:after {
 #createnew-btn{
     margin-top: 30px;
     margin-left: 30px;
-    width: 60vh;
+    width: 420px;
     height: 60px;
     background-color: #008000;
     color: white;
